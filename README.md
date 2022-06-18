@@ -4,7 +4,7 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 <br>
 <table border="0">
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" height="100" width="100" ></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" height="60" width="60" ></td>
   </tr>
 </table><br>
 
