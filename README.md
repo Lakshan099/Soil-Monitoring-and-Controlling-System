@@ -24,5 +24,6 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 <h3>Web Application</h3><br>
 
 Frontend : http://soilsystems.me/
+Backend : http://admin.soilsystems.me/
 
 
