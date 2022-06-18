@@ -3,4 +3,5 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 
 Mobile Application
 
+<img src="[http://url/image.png](https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1651595750.png)" height="60" width="60" >
 
