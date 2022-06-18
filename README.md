@@ -54,12 +54,13 @@ App Apk File Link : https://drive.google.com/file/d/1-JBXG7flaA5RKdlFizg_74TI56F
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(3).jpeg" height="320" width="240" ></td>
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(4).jpeg" height="320" width="240" ></td>
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(5).jpeg" height="240" width="320" ></td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(1).jpeg" height="240" width="320" ></td>
   </tr>
 </table><br>
 
 <h3>Web Application</h3><br>
 
-Frontend : http://soilsystems.me/ <br>
-Backend : http://admin.soilsystems.me/
+Frontend Link : http://soilsystems.me/ <br>
+Backend Link : http://admin.soilsystems.me/
 
 
