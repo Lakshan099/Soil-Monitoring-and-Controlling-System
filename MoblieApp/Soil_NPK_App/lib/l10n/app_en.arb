@@ -1,0 +1,28 @@
+{
+    "language" : "English",
+    "find" : "Find Out More",
+    "@language" :{
+        "description":"The current Language"
+    },
+    "home":"Home",
+    "find" : "Find Out More",
+    "n1" : "AO supports a climate-smart agriculture (CSA) approach to manage cropland, livestock, forests and fisheries, addressing the challenges of food security and climate",
+    "n2" : "The Sustainable Rice Platform (SRP) works with partners to transform the global rice sector by improving smallholder livelihoods, reducing the social",
+    "n3" : "Before joining GACSA, I was in living back in my homeland of Australia, working as the Sustainability Manager of a Local Government in Sydney",
+    "system" : "System",
+    "asystem" : "Add new System",
+    "wm" : "Soil Monitoring and NPK Checking System",
+    "nL" : "LOGIN",
+    "nS" : "SIGNUP",
+    "analytics" : "Analytics",
+    "noti" : "Notification",
+    "messages" : "Messages",
+    "qA" : "Q & A",
+    "fq" : "FAQ",
+    "lan" : "Language",
+    "sout" : "Sign Out",
+    "setting" : "Settings",
+    "@home": {
+        "find":"Find Out More"
+    }
+}
