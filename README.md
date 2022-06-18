@@ -3,7 +3,7 @@
 <br>
 <table border="0">
   <tr>
-    <td><img src="" height="200" width="200" ></td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/app/ico.png" height="200" width="200" ></td>
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(2).jpeg" height="200" width="200" ></td>
   <td><img src="" height="200" width="200" ></td>
   </tr>
