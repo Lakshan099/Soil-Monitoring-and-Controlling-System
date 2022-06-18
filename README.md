@@ -20,3 +20,9 @@ Soil monitoring and controlling system has been developed to adopt precision agr
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(5).jpeg" height="240" width="320" ></td>
   </tr>
 </table><br>
+
+<h3>Web Application</h3><br>
+
+Frontend : http://soilsystems.me/
+
+
