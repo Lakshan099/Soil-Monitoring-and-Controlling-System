@@ -3,23 +3,11 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 
 Mobile Application
 
-<img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025312.png" height="570" width="270" >
-<img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025312.png" height="570" width="270" >
-
 <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+ountry</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025312.png" height="570" width="270" ></td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025312.png" height="570" width="270" ></td>
   </tr>
 </table>
