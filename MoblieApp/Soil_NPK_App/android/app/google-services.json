@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "666923002533",
-    "firebase_url": "https://soil-monitoring-system-e4988-default-rtdb.firebaseio.com",
-    "project_id": "soil-monitoring-system-e4988",
-    "storage_bucket": "soil-monitoring-system-e4988.appspot.com"
+    "project_number": "",
+    "firebase_url": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:666923002533:android:0779da2c8a81a0ee233b4c",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.example.soil_npk_app"
+          "package_name": ""
         }
       },
       "oauth_client": [
         {
-          "client_id": "666923002533-tnojbjd61cer0k8tgd5u1ajmaqrem3gh.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.soil_npk_app",
-            "certificate_hash": "53ed4e631690688ba0460d92507cde4aeae2e9bb"
+            "package_name": "",
+            "certificate_hash": ""
           }
         },
         {
-          "client_id": "666923002533-uikg31gegisa3u77b99sl9vicau8c9qf.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDcbgNq_rdZbYh23sO_3xoNOfq8YNs1iXg"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "666923002533-uikg31gegisa3u77b99sl9vicau8c9qf.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
