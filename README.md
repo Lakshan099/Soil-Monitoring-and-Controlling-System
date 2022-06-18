@@ -16,7 +16,7 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 <table border="0">
   <tr>
     <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(3).jpeg" height="320" width="240" ></td>
-    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025319.png" height="570" width="270" ></td>
-  <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/MoblieApp/Soil_NPK_App/ss/Screenshot_1655025331.png" height="570" width="270" ></td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(3).jpeg" height="320" width="240" ></td>
+    <td><img src="https://github.com/Lakshan099/Soil-Monitoring-and-Controlling-System/blob/main/ArduinoSystem/Soil_NPK_System/pics/1%20(3).jpeg" height="320" width="240" ></td>
   </tr>
 </table><br>
