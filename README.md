@@ -4,4 +4,5 @@ Soil monitoring and controlling system has been developed to adopt precision agr
 Mobile Application
 
 ![Screenshot_1655025312](https://user-images.githubusercontent.com/81616253/174432275-de7429cd-7a6b-4d27-88b3-a1dcef538c7d.png)
-
+![Screenshot_1655025319](https://user-images.githubusercontent.com/81616253/174432299-27244884-4da9-4f72-9bdb-9d569570d134.png)
+![Screenshot_1655025331](https://user-images.githubusercontent.com/81616253/174432305-2e8636a0-9fa4-4b19-ae28-2cf4791a5605.png)
