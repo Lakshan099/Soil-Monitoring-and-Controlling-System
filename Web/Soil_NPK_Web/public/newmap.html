@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My google map</title>
+    <link rel="stylesheet" type="text/css" href="CSS/mapStyle.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      #map{
+        height:750px;
+        width:100%;
+      }
+    </style>
+    </head>
+ 
+    <body>
+      <header><img src="Images/Soil-Systems-Logo.png" alt="" width="144" height="137" class="logo">
+        <p>Soil Monitoring and Controlling System</p>
+          <a href="cart.php"><p class="two">	Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i></a>
+          
+      </header>
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      // Map options
+      var options = {
+        zoom: 15,
+        center: { lat: 6.9128, lng: 79.8506 }
+      }
+
+      // New map
+      var map = new google.maps.Map(document.getElementById('map'), options);
+
+      // Listen for click on map
+      google.maps.event.addListener(map, 'click', function (event) {
+        // Add marker
+        //addMarker({ coords: event.latLng });
+      });
+
+      /*
+      // Add marker
+      var marker = new google.maps.Marker({
+        position:{lat:42.4668,lng:-70.9495},
+        map:map,
+        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+      });
+
+      var infoWindow = new google.maps.InfoWindow({
+        content:'<h1>Lynn MA</h1>'
+      });
+
+      marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+      });
+      */
+
+      // Array of markers
+      var markers = [
+        {
+          coords: { lat: 6.7144, lng: 79.9891},
+          iconImage: 'https://img.icons8.com/emoji/60/undefined/man-farmer.png',
+          content: '<h1>Lynn MA</h1>'
+        },
+        {
+          coords: { lat: 6.9128, lng: 79.8506 },
+          iconImage: 'https://img.icons8.com/emoji/60/undefined/man-farmer.png',
+          content: '<h1>Location:Colombo</h1><h2>Sensor values</h2><br><p>p:34<br>n:77<br>k:12</p>'
+
+        },
+        {
+          coords: { lat: 42.7762, lng: -71.0773 }
+        }
+      ];
+
+      // Loop through markers
+      for (var i = 0; i < markers.length; i++) {
+        // Add marker
+        addMarker(markers[i]);
+      }
+
+      // Add Marker Function
+      function addMarker(props) {
+        var marker = new google.maps.Marker({
+          position: props.coords,
+          map: map,
+          //icon:props.iconImage
+        });
+
+        // Check for customicon
+        if (props.iconImage) {
+          // Set icon image
+          marker.setIcon(props.iconImage);
+        }
+
+        // Check content
+        if (props.content) {
+          var infoWindow = new google.maps.InfoWindow({
+            content: props.content
+          });
+
+          marker.addListener('click', function () {
+            infoWindow.open(map, marker);
+          });
+        }
+      }
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlj0_AJs70Pol7p7N5USu_DdNfX99ctfs&libraries=visualization&callback=initMap">
+    </script>
+
+<script type="text/javascript">
+  let url="http://localhost:3000/newmap";
+  fetch(url).then(response => response.json())
+  .then( (result) => {
+      console.log('success:', result)
+      var div=`${result.title}`;
+      var div2=`${result.long}`;
+      
+  })
+  .catch(error => console.log('error:', error));
+</script>
+<div id="test"></div>
+</body>
+
+</html>

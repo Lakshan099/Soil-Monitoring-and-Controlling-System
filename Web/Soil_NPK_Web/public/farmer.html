@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Send Message</title>
+    <link rel="stylesheet" type="text/css" href="CSS/farmerStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+    function success_msg()
+    {
+        alert("Messeage is successfully sent");
+    }
+        </script>
+</head>
+
+<body>
+    <form>
+    <header><img src="Images/Soil-Systems-Logo.png" alt="" width="124" height="117" class="logo">
+        <p>Soil Monitoring and Controlling System</p>
+            <p class="two"> Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i>
+    </header>
+    <div class="container1">
+            <br>
+            <br>
+            <a href="hgjh">
+                <input type="button" class="btn1" name="button" id="button" value="Notification">
+            </a>
+
+            <a href="Homepage.html"><i class="fa fa-chevron-circle-left" style="font-size:100px"></i></a>
+        </form>
+
+    </div>
+        <table class="t1" width="1200" height="480">
+            <tbody>
+                <tr>
+                    <td><textarea placeholder="   text...." name="txtmsg" id="txtmsg"></textarea> <br>
+                        <a href="">
+                            <input type="submit" class="btn2" name="button3" id="button3" value="Send Message" onclick="success_msg()"></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./farmerfunction.js"></script>
+</body>
+
+</html>

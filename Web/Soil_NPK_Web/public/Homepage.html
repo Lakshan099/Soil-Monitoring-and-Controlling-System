@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<script>let width = 0, height = 0;
+
+	width = window.innerWidth;
+	height = window.innerHeight;</script>
+	<link rel="stylesheet" type="text/css" href="CSS/HomeStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+		let url="http://localhost:3000/Homepage";
+		fetch(url).then(response => response.json())
+		.then( (result) => {
+			console.log('success:', result)
+			let div=document.getElementById('test');
+			div.innerHTML=`${result.title}`;
+		})
+		.catch(error => console.log('error:', error));
+	</script>
+
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+	<header><img src="Images/Soil-Systems-Logo.png" alt="" width="120" height="117" class="logo">
+	<p>Soil Monitoring and Controlling System</p>&nbsp;
+	<p class="two">	Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i>
+</header>  
+	<div class="container1">
+	  <form >
+	    <table class="t2" width="350" border="0"><tbody><tr><td>
+	
+	<div class="column">
+		 <div class="card">
+  <table class="t1" width="400" height="200" border="1">
+	     <tbody>
+	        <tr>
+	          <td class="td2"><br><br><strong><div id="test" class="text1"></div></strong>&nbsp;</td>
+            </tr>
+	        <tr>
+				<td width="340" height="90" class="td1" >Current Users&nbsp;&nbsp;&nbsp;&nbsp;<i style="font-size:35px" class="fa">&#xf201;</i></td>
+            </tr>
+          </tbody>
+        </table>
+		 </div>
+		 </div></td><td>
+  <div class="column">
+  <div class="card">
+  <table class="t1" width="400" height="200" border="1">
+	     <tbody>
+	        <tr>
+	          <td class="td2"><br><br><strong><div id="test2" class="text1">30%</div></strong>&nbsp;</td>
+            </tr>
+	        <tr>
+				<td width="340" height="90" class="td1">Today's Usage&nbsp;&nbsp;&nbsp;<i class="fa fa-eye" style="font-size:33px"></i></td>
+	          
+            </tr>
+          </tbody>
+        </table>
+	  </div>
+	  </div></td>
+<td>  <div class="column">
+  <div class="card">
+	  <table class="t1" width="400" height="200" border="1">
+   <tbody>
+	        <tr>
+	          <td class="td2"><br><br><strong><div id="test2" class="text1">1</div></strong>&nbsp;</td>
+            </tr>
+	        <tr>
+				<td width="340" height="90" class="td1"><p style="font-size: 32px;">Available Systems&nbsp;<i class="fa fa-check-circle" style="font-size:32px"></i></p></td>
+	          
+            </tr>
+          </tbody>
+        </table>
+  </div>
+  </div>
+ 
+</td></tr>
+			<tr class="tr2">
+			<td><p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p><a href="user.html">
+		      <input type="button" class="btn1" name="button" id="button" value="Users">
+		      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Q&A.html">
+		      <input type="button" class="btn1" name="btn2" id="btn2" value="Q&A">
+		      </a></p><br>
+				<p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p>&nbsp;</p>
+			  <p><a href="farmer.html">
+		      <input type="button" class="btn1" name="button3" id="button3" value="Send Message">
+		      </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <a href="FAQ.html">
+		      <input type="button" class="btn1" name="button4" id="button4" value="FAQ">
+		      </a></p><br><br><br><br><br>
+			  </td>	
+				<td>
+				<a href="newmap.html"><input type="button" class="btn3" value="View Map"><i class="fa fa-map-marker" style="font-size:150px;color: white"></i><br></a>
+			
+				<p>
+				  </p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p></td>
+				<td>
+				<button class="btn4"><canvas id="myChart" style="width:100%;max-width:600px"></canvas></button>
+				
+				<p><a href="fdg"></a>
+				  
+			    </p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				
+
+<script>
+var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+var yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: " rgba(0,128,0,0.8)",
+      borderColor: "rgba(0,0,255,0.1)",
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 6, max:16}}],
+    }
+  }
+});
+</script>
+
+				<p>&nbsp;</p></td>
+			
+			
+		  </tr>
+</tbody>
+</table>	    
+      </form>		
+			 
+		</div>
+</body>
+</html>

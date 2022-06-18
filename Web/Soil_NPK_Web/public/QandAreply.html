@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Q&A</title>
+    <link rel="stylesheet" type="text/css" href="CSS/addFaqStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        function Send_msg()
+        {
+            alert("Reply has been sent successfully");
+        }
+    </script>
+</head>
+
+<body>
+    <form id="form1" name="form1" method="put" action="">
+        <header><img src="Images/Soil-Systems-Logo.png" alt="" width="144" height="137" class="logo">
+            <p>Soil Monitoring and Controlling System</p>
+            <a href="cart.php">
+                <p class="two"> Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i>
+            </a>
+        </header>
+        <div class="container1">
+
+            <br>
+            <br>
+
+            <input type="text" class="text1" name="button" id="button" value="Questions and Answers">
+            <a href="Q&A.html"><i class="fa fa-chevron-circle-left" style="font-size:100px"></i></a>
+
+
+        </div>
+        <table class="t1" width="1250" height="350"text-align="center" >
+            <tbody>
+                <tr>
+                    <td>
+                    &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td width="333" text-align="center">Question</td>
+                    <td width="905">
+                        <input type="text" name="txtquestion" id="txtquestion" class="text3"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="333" text-align="center">Reply</td>
+                    <td width="905">
+                        <input type="text" name="txtreply" id="txtreply" class="text3"><br><br>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="btn1" name="btnReply" id="btnReply" value="Reply">
+                        <br><br><br>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="./replyQandA.js"></script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>let width = 0, height = 0;
+
+        width = window.innerWidth;
+        height = window.innerHeight;</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="CSS/loginStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script>
+		function checklogin(){
+			
+		var username=document.getElementById("txtuname").value;
+		var password=document.getElementById("txtpassword").value;
+		var test="Admin";
+		var test2="Admin";
+		var result1=0;
+		var result2=0;
+		result1=username.localeCompare(test);
+		result2=password.localeCompare(test2);
+		if( result1==0 && result2==0)
+		{
+			window.location.href='Homepage.html';
+		}
+		else
+		{
+			alert("wrong");
+		}
+	}
+		</script>
+</head>
+
+<body>
+    <form>
+        <header><img src="Images/Soil-Systems-Logo.png" alt="" width="144" height="137" class="logo">
+            <p>Soil Monitoring and Controlling System test</p>
+        </header>
+        <div class="container1">
+            <br>
+            <br>
+
+            <input type="text" class="text1" name="button" id="button" value="Admin Login"><i
+                class="fas fa-sign-in-alt"></i>
+
+        </div>
+        <table class="t1" width="700" height="580">
+            <tbody>
+                <tr>
+                    <td> <input type="text" class="text2" name="txtuname" id="txtuname" placeholder="Enter email"><br>
+                        <input type="password" class="text3" name="txtpassword" id="txtpassword"
+                            placeholder="**************" minlength="8" maxlength="16">
+                        <br>
+                       <input type="button" class="button" name="btnsubmit" id="btnsubmit" value="Login" onClick="checklogin()">
+                </tr>
+            </tbody>
+        </table>
+    </form>
+  
+</body>
+
+</html>

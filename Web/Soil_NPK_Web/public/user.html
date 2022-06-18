@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>USERS</title>
+<link rel="stylesheet" type="text/css" href="CSS/userStyle.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	
+
+
+</head>
+<body>
+
+  <script type="text/javascript">
+    let url="http://localhost:3000/user";
+    fetch(url).then(response => response.json())
+    .then( (result) => {
+        console.log('success:', result)
+        let div=document.getElementById('test');
+        div.innerHTML=`${result.title}`;
+    })
+    .catch(error => console.log('error:', error));
+</script>
+<header><img src="Images/Soil-Systems-Logo.png" alt="" width="120" height="117" class="logo">
+	<p>Soil Monitoring and Controlling System</p>&nbsp;
+	<p class="two">	Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i>
+</header>   
+<div class="container1">
+	  <form id="form1" name="form1" method="post">
+	    <br>
+<br>
+		    <input type="text" class="txt1" name="button" id="button" value="Users" readonly>
+
+		 
+<a href="Homepage.html"><i class="fa fa-chevron-circle-left" style="font-size:100px"></i></a>
+      </form>		
+		 
+</div>
+	<table class="t1" width="1220" height="700">
+  <tbody>
+    <tr>
+      <td id="test"> </td>
+<a href="UpdateUser.html"><input type="button" class="btn2" name="button2" id="button2" value="Edit"></a>
+<a href="DeleteUser.html"><input type="button" class="btn3" name="button3" id="button3" value="Delete"></a>
+</tr><td></tbody></table>
+</body>
+</html>

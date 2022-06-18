@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FAQ</title>
+    <link rel="stylesheet" type="text/css" href="CSS/faqStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    
+    <script type="text/javascript">
+        let url="http://localhost:3000/FAQ";
+        fetch(url).then(response => response.json())
+        .then( (result) => {
+            console.log('success:', result)
+            let div=document.getElementById('test');
+            div.innerHTML=`${result.title}`;
+        })
+        .catch(error => console.log('error:', error));
+    </script>
+
+    <header><img src="Images/Soil-Systems-Logo.png" alt="" width="124" height="117" class="logo">
+        <p>Soil Monitoring and Controlling System</p>
+        <a href="cart.php">
+            <p class="two"> Admin</p><br><i class="fa fa-sign-out" style="font-size:56px;color:black"></i>
+        </a>
+    </header>
+    <div class="container1">
+        <form id="form1" name="form1" method="post">
+            <br>
+            <br>
+
+            <input type="text" class="text1" name="button" id="button" value="Frequently asked questions">
+            <a href="Homepage.html"><i class="fa fa-chevron-circle-left" style="font-size:100px"></i></a>
+
+            
+        </form>
+
+    </div>
+    <table class="t1" width="1270" height="350">
+        <tbody>
+            <tr>
+                <td>
+		 <div id="test" class="text3"></div> 
+                    <a href="AddFAQ.html"><input type="button" class="btn1" name="button1" id="button1"
+                            value="Set New"></a>
+                    <a href="EditUser.html"><input type="button" class="btn2" name="button2" id="button2" value="Edit"></a>
+                    <a href="DeleteFAQ.html"><input type="button" class="btn3" name="button3" id="button3" value="Delete"></a>
+
+                </td>
+            </tr>
+            <script src="./FAQfunctions.js"></script>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
