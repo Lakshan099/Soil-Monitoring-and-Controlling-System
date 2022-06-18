@@ -11,6 +11,7 @@ Soil monitoring and controlling system has been developed to adopt precision agr
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="60" width="60" ></td>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="60" width="60" ></td>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="60" width="60" ></td>
+    <td><img src="https://raw.githubusercontent.com/Lakshan099/Soil-Monitoring-and-Controlling-System/c40bee1a4491c3bcd626724a3c5f37a0ef32f057/MoblieApp/Soil_NPK_App/ss/twilio.svg" height="60" width="60" ></td>
   </tr>
 </table><br>
 
