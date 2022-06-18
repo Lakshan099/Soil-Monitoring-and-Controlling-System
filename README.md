@@ -25,6 +25,9 @@ Soil monitoring and controlling system has been developed to adopt precision agr
   </tr>
 </table><br>
 
+App Apk File Link : https://drive.google.com/file/d/1-JBXG7flaA5RKdlFizg_74TI56Feoh1k/view?usp=sharing
+<br>
+
 <h3>Arduino System</h3><br>
 
 <table border="0">
